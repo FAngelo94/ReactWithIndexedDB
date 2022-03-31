@@ -1,6 +1,9 @@
 # Counter with IndexDB
 React application whith simple counter that manage information inside the IndexedDB using idb as tiny wrapper to simplify the iteraction with the storage
 
+## Live demo
+You can see here the Demo: https://fangelo94.github.io/ReactWithIndexedDB/
+
 ## Package used
 - idb: https://www.npmjs.com/package/idb
 

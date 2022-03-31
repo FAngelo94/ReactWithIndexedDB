@@ -2,6 +2,7 @@ import React from "react";
 
 import './App.css';
 import { localDB } from "./cache";
+import Image from "./image.png"
 
 function Counter() {
     const [c, setC] = React.useState(0)
@@ -54,6 +55,8 @@ function Counter() {
                 setC(c + 1)
             }}>ADD</button>
             <p>Complete store: {JSON.stringify(store)}</p>
+            <p>You can see the complete store in dev tools - application as you can see in this image</p>
+            <img src={Image} style={{maxWidth: "800px"}}/>
         </div>
     );
 }
